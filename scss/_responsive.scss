@@ -1,0 +1,230 @@
+@media screen and (max-width: 1199px) {
+	.main-bg {
+		.content {
+			h1 {
+				font-size: 2.5rem;
+			}
+			h2 {
+				font-size: 1rem;
+			}
+		}
+	}
+	.welcome {
+		h2 {
+			font-size: 2.25rem;
+		}
+		p {
+			font-size: 1.15rem;
+		}
+	}
+	.featured-cta {
+		.cta-wrap {
+			.cta {
+				min-height: 30rem;
+				h3 {
+					font-size: 1.25rem;
+				}
+				p {
+					font-size: 0.85rem;
+				}
+			}
+		}
+	}
+	footer {
+		.links {
+			.footerlinks {
+				flex-wrap: wrap;
+				.nav-item {
+					.nav-link {
+						padding-bottom: 0.5rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	section {
+		padding: 3rem 1rem;
+	}
+	.cbp-spmenu {
+		background-color: $white;
+		border-right: 1px solid $gray-300;
+		.navbar-brand {
+			border-color: $gray-300;
+		}
+		ul {
+			li {
+				a {
+					border-color: $gray-300;
+					font-family: $heading;
+					color: $black;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.navbar.overlay-nav {
+		.toggle-menu {
+			display: block;
+			background-color: transparent;
+			border: none;
+			color: $white;
+			font-size: 1.8rem;
+		}
+	}
+	.navbar {
+		.toggle-menu {
+			display: block;
+			background-color: transparent;
+			border: none;
+			color: $black;
+			font-size: 1.8rem;
+		}
+		.navbar-wrap {
+			justify-content: space-between;
+			position: relative;
+			padding: 0;
+			.nav {
+				display: none;
+			}
+		}
+		.navbar-brand {
+			padding-left: 0;
+		}
+	}
+	.main-bg {
+		.content {
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	}
+	.featured-cta {
+		.cta-wrap {
+			flex-wrap: wrap;
+			justify-content: center;
+			.cta {
+				flex: 1 1 50%;
+				max-width: 50%;
+			}
+		}
+	}
+	footer {
+		.links {
+			.footerlinks {
+					justify-content: center;
+			}
+		}
+		.social {
+			justify-content: center;
+		}
+		.address {
+			text-align: center;
+		}
+	}
+	.multi-column {
+		column-count: 2;
+	}
+	.big-title {
+		font-size: 3rem;
+	}
+	.heading-bg {
+		padding: 10rem 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar.overlay-nav {
+		.navbar-wrap {
+			width: auto;
+		}
+		.navbar-brand {
+			img {
+				max-width: 6rem;
+			}
+		}
+	}
+	.navbar {
+		.navbar-brand {
+			img {
+				max-width: 5rem;
+			}
+		}
+		.navbar-wrap {
+			width: auto;
+		}
+	}
+	.big-title {
+		font-size: 2rem;
+	}
+	h1 {
+		font-size: 2.25rem;
+	}
+	.content {
+		h2 {
+			font-size: 1.45rem;
+		}
+	}
+	.multi-column {
+		column-count: 1;
+	}
+	.heading-bg {
+		padding: 7rem 0rem;
+	}
+	.main-bg {
+		.content {
+			padding: 1.5rem;
+			h1 {
+				font-size: 1.7rem;
+				margin-bottom: 1rem;
+			}
+			h2 {
+				font-size: 0.85rem;
+				letter-spacing: 2px;
+			}
+		}
+	}
+	.welcome {
+		text-align: left;
+		h2 {
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+	.featured-cta {
+		.cta-wrap {
+			flex-direction: column;
+			.cta {
+				flex: 1 1 100%;
+				max-width: 100%;
+			}
+		}
+	}
+	footer {
+		.address {
+			letter-spacing: 0;
+			text-transform: none;
+		}
+		.copyright {
+			font-size: 8px;
+			a {
+				font-size: 8px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

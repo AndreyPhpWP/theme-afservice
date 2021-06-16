@@ -1,0 +1,29 @@
+// Custom Sass Variables
+// =========================================================
+// =========================================================
+
+$black: #2a292f;
+$offwhite: #f8f8f8;
+
+
+// Fonts
+// =========================================================
+// =========================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+$heading: 'Montserrat', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+
+// Mixins
+// =========================================================
+// =========================================================
+
+// Gradient
+@mixin gradient($direction, $list) { 
+  background: -webkit-linear-gradient($direction, $list);
+  background: -moz-linear-gradient($direction, $list);
+  background: -o-linear-gradient($direction, $list);
+  background: linear-gradient($direction, $list);  
+}
